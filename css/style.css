@@ -1,0 +1,25 @@
+ /* selectors in css */
+        
+        /* syntax of defining css style */
+        /* selector {
+            property: value;
+            property: value;
+        } */
+       
+       /* Type I Selector: Element */
+       /*
+       h2 {
+         color: blue;
+       }
+       */
+       
+       /* Type II Selector: ID selector */
+       #first-h2{
+        color: blue;
+      }
+      
+      /* Type III Selector: Class selector */
+      .nda{
+        letter-spacing: 3px;
+        color: orangered;
+      }
