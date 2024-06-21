@@ -1,4 +1,4 @@
-console.log('hello world!')
+// console.log('hello world!')
 
 // declare variable in js
 var nameOfTheVariable = 'abc';
@@ -26,16 +26,17 @@ var s2 = Symbol('my new symbol')
 var a = 10;
 var b = '10';
 
-console.log(s1);
-console.log(a == b); // value comparison
-console.log(a === b); // value & type comparison
+// console.log(s1);
+// console.log(a == b); // value comparison
+// console.log(a === b); // value & type comparison
 
 
 var a = '10';
 var b = 20;
 var c = 30;
-clg(a+b);
-clg(a-b);
+// console.log(a+b); // '10' + 20('20') = '1020'
+// 'riddhi' + 'suteri' = 'riddhisuteri'
+// clg(a-b);
 
-clg(a+b-c);
-clg(a-b+c);
+console.log(a+b-c);
+// clg(a-b+c);
