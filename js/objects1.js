@@ -20,6 +20,7 @@ var person = {
     // name:"Riddhi"
 }
 
+delete person['cost to company']
 
 // Below code can be skipped for the time being 
 

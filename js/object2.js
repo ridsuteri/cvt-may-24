@@ -7,12 +7,19 @@ a = 20;
 // console.log(b);
 
 var objA = {
-    key: 10
+    key: 10,
+    nested:{
+        nestedKey: 20
+    }
 }
+
+
+// deep copy
+var deepCopyB = JSON.parse(JSON.stringify(objA))
+var deepCopyB = {...objA};
 
 // shallow copy
 // you are also borrowing the reference along with value
-var deepCopyB = JSON.parse(JSON.stringify(objA))
 
 var objB = objA;
 objA.key = 20;
